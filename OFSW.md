@@ -159,21 +159,21 @@ db.users.deleteOne({ name: "John Doe" })
 
 ---
 
-## Troubleshooting
+## Common Erros & Fixes
 
-### **Issue: MongoDB Service Not Starting**  
+### **Error 1: MongoDB Service Not Starting**  
 **Fix:** Check logs with:  
 ```sh
 sudo journalctl -u mongod --no-pager
 ```
 
-### **Issue: "Connection Refused" Error**  
+### **Error 2: "Connection Refused" Error**  
 **Fix:** Ensure MongoDB is running:
 ```sh
 sudo systemctl status mongod
 ```
 
-### **Issue: Authentication Failure**  
+### **Error 3: Authentication Failure**  
 **Fix:** Enable authentication in `mongod.conf`.
 
 ---
