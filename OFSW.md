@@ -34,7 +34,7 @@ Before installing MongoDB, ensure your system meets the following requirements:
 ### **Hardware:**
 - Minimum of 2GB RAM
 - At least 2GB of free disk space
-- Processor: AVX instruction set supported (Intel/AMD)
+- Processor: MongoDB 5.0 requires use of the AVX instruction set, available on [select Intel and AMD processors.](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions#CPUs_with_AVX)
 
 ### **Software:**
 - Node.js (for Node.js applications)
