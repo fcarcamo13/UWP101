@@ -102,16 +102,20 @@ Before proceeding with MongoDB installation and setup, consider these precaution
 ### **Starting the MongoDB Service**
 
 #### **On Windows:**
-the MongoDB Service will begin automatically with the system. If needed, you can manually start the service by typing this command into your CMD:
+The MongoDB Service will begin automatically with the system. If needed, you can manually start the service by typing this command into your CMD:
 ```sh
 net start mongodb
 ```
 
 #### **Mac/Linux:**
+To start MongoDB, run:
 ```sh
 sudo systemctl start mongod
 ```
-
+You can confirm that the MongoDB service is running by typing:
+```sh
+  sudo systemctl start mongod
+```
 ### **Connecting to the MongoDB Shell**
 ```sh
 mongo
