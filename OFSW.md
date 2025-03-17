@@ -159,7 +159,7 @@ db.users.deleteOne({ name: "John Doe" })
 
 ---
 
-## Common Erros & Fixes
+## Common Errors & Fixes
 
 ### **Error 1: MongoDB Service Not Starting**  
 **Fix:** Check logs with:  
