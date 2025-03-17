@@ -16,7 +16,7 @@ MongoDB is a popular NoSQL database that uses a document-based model to store da
 - [Configuring MongoDB](#configuring-mongodb)
 - [Creating a Database](#creating-a-database)
 - [Basic Operations (CRUD)](#basic-operations-crud)
-- [Common Errors & Fixes](#Common-Errors-&-Fixes)
+- [Common Errors & Fixes](#Common-Errors--Fixes)
 - [Backing Up and Restoring](#backing-up-and-restoring)
 - [Appendix](#appendix)
 
