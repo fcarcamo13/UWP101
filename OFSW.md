@@ -63,28 +63,34 @@ Before proceeding with MongoDB installation and setup, consider these precaution
    - Select **MSI Installer**.
 
 2. **Run the Installer:**  
-   - Choose the **Complete** installation option.
+   - Follow the intruction wizard. During Installation, choose **Complete** to install all necessary components.
    - Ensure **Install MongoDB as a Service** is checked.
+   - Once Installation is complete, MongoDB will run automatically as a service.
 
-3. **Verify Installation:**  
+3. **Verify Installation:**
+   - Open Command Prompt (CMD) and type:
    ```sh
    mongo --version
    ```
-
+  - This should return the installed version of MongoDB.
+    
 ### **On Mac**
 
-1. **Install Homebrew (if not installed):**  
+1. **Install Homebrew (if not installed):**
+   - Open the terminal and run:
    ```sh
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
 
-2. **Install MongoDB:**  
+2. **Install MongoDB:**
+   - Use homebrew to install MongoDB by running:
    ```sh
    brew tap mongodb/brew
    brew install mongodb-community@5.0
    ```
 
-3. **Verify Installation:**  
+3. **Verify Installation:**
+   - Check that MongoDB was installed by typing:
    ```sh
    mongo --version
    ```
@@ -95,7 +101,7 @@ Before proceeding with MongoDB installation and setup, consider these precaution
 
 ### **Starting the MongoDB Service**
 
-#### **Windows:**
+#### **On Windows:** the MongoDB Service will begin automatically with the system. If needed, you can manually start the service by typing this command into your CMD:
 ```sh
 net start mongodb
 ```
