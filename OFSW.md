@@ -46,13 +46,11 @@ Before installing MongoDB, ensure your system meets the following requirements:
 
 Before proceeding with MongoDB installation and setup, consider these precautions:
 
-⚠ **Backup Your Data:** Before making changes to an existing database, create backups using `mongodump`.
+⚠️ **Backup Your Data:** Before making changes to an existing database, create backups using `mongodump`.
 
-⚠ **Secure Your Database:** MongoDB does not enable authentication by default. Ensure you configure access control.
+⚠️ **Secure Your Database:** MongoDB does not enable authentication by default. Ensure you configure access control.
 
-⚠ **Check Firewall Rules:** If hosting MongoDB remotely, restrict access to only trusted IPs.
-
-⚠ **Avoid Running as Root:** Running MongoDB as a root user can pose security risks. Use a dedicated user account.
+⚠️ **Avoid Running as Root:** Running MongoDB as a root user can pose security risks. Use a dedicated user account.
 
 ---
 
