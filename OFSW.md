@@ -116,13 +116,12 @@ You can confirm that the MongoDB service is running by typing:
 ```sh
 sudo systemctl start mongod
 ```
-<span style="font-size: 1.3em; font-weight: bold;">Connecting</span>: To connect to MongoDB, open a new CMD or Terminal window and type:
-
+**Connecting:** To connect to MongoDB, open a new CMD or Terminal window and type:
 ```sh
 mongo
 ```
 
-### **Disconnecting:** To exit MongoDB shell, type:
+**Disconnecting:** To exit MongoDB shell, type:
 ```sh
 exit
 ```
